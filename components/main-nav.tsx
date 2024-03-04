@@ -12,6 +12,11 @@ export function MainNav({
   const params = useParams()
   const routes = [
     {
+      href: `/${params.storeId}/settings`,
+      label: "Settings",
+      active: pathName === `/${params.storeId}/settings`
+    },
+    {
       href: `/${params.storeId}`,
       label: "Overview",
       active: pathName === `/${params.storeId}`
@@ -30,11 +35,6 @@ export function MainNav({
       href: `/${params.storeId}/sizes`,
       label: "Sizes",
       active: pathName === `/${params.storeId}/sizes`
-    },
-    {
-      href: `/${params.storeId}/settings`,
-      label: "Settings",
-      active: pathName === `/${params.storeId}/settings`
     }
   ]
   return (
