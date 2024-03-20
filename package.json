@@ -1,5 +1,5 @@
 {
-  "name": "xxx",
+  "name": "Full-Stack-E-Commerce-Dashboard",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -29,6 +29,7 @@
     "lucide-react": "^0.341.0",
     "next": "14.1.0",
     "next-cloudinary": "^6.0.1",
+    "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.50.1",
